@@ -1,0 +1,94 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 100vw;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    padding-block: 16px;
+
+}
+
+.item{
+    height: 150px;
+    width: 80%;
+    background-color: #8B0000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-inline: 32px;
+}
+
+.texto{
+    color: azure;
+    font-size: 64px;
+}
+
+.forma{
+    width: 100px;
+    height: 100px;
+    background-color: #000000;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.vermelho{
+    background-color: #B0E0E6;
+}
+
+.circulo{
+    border-radius: 50%;
+    background-color: aliceblue;
+}
+
+.imagemSunoo{
+    background-image: url(https://64.media.tumblr.com/4d2208ea6968a6b65556f03510bd943a/521351d502c68dd0-94/s1280x1920/17c57abd04ed5d10dbd3cddbb6f96674a9197979.jpg);
+    background-size: cover;
+    grid-row: span;
+    cursor: pointer;
+    width: 100px;
+    height: 100px;
+}
+
+.bolota{
+    border-radius: 100%;
+    background-image: url(https://i.pinimg.com/236x/8a/fd/72/8afd72ad24b745884b6ef36fff8ce2d9.jpg);
+    background-size: cover;
+    animation-duration: 1s;
+}
+
+.newjeans{
+   /* animation-duration: 3s;
+  animation-name: slidein;
+  animation-iteration-count: infinite; */
+  background-image: url(https://i.pinimg.com/originals/cd/44/da/cd44da6fb1162a8b6437092c1b71f360.gif);
+  background-size: cover;
+  animation:alternate;
+}
+
+.morangoGif{
+    border-radius: 12%;
+    background-color: beige;
+    background-image: url(https://i.pinimg.com/originals/8c/00/d1/8c00d1feeaecab135db0306bd4a9479b.gif);
+    background-size: cover;
+
+}
+
+.gatinhuo{
+    background-color: #8B0000;
+}
+
+.formaa{
+    background-color: #B0E0E6;
+    background-size: cover;
+    width: 100px;
+    height: 100px;
+    cursor: pointer;
+    animation: linear infinite alternate;
+}
+
+
